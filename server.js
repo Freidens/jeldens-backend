@@ -7,15 +7,15 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.redirect('https://jeldens.com');
+    res.redirect('');
 })
 
-app.get('/src/pages/contact', (req, res) => {
-    res.redirect('https://jeldens.com/contact');
+app.get('/contact', (req, res) => {
+    res.redirect('');
 })
 
-app.get('/src/pages/contact', (req, res) => {
-    res.redirect('https://jeldens.com/store');
+app.get('/store', (req, res) => {
+    res.redirect('');
 })
 
 app.listen('8000', () => console.log('Server is running.'));
