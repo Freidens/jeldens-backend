@@ -15,7 +15,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/', createProxyMiddleware({
-    target: "https://freidens.github.io/jeldens-website",
+    target: "https://freidens.github.io/jeldens-website-2/",
     changeOrigin: true
 }))
 
